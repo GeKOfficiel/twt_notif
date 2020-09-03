@@ -5,7 +5,9 @@ Affichage d'une notification avec le logo de twitter / Anonyme / LSPD
 Si vous utiliser encore essentialmode merci de vous rentre dans server.lua est changer sa :
 
 RegisterCommand('twt', function(source, args, rawCommand)
+
 en
+
 TriggerEvent('es:addGroupCommand', 'twt', "user", function(source, args, rawCommand)
 
 est faite pareil pour les autres.
